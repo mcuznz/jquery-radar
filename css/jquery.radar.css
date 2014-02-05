@@ -1,0 +1,43 @@
+.radar-elevator {
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 66%,rgba(0,0,0,0) 100%);
+}
+
+.radar-elevator-mask {
+}
+
+.radar-elevator-overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.radar-elevator-mask .radarItem {
+    background: #B0B0B0;
+    color: #303030;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+}
+
+.radar-elevator-mask .radarItem:hover {
+    background: #F0F0F0;
+}
+
+.radar-elevator-mask .radarItem .radarItemLabel {
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+    position: relative;
+    background: white;
+    color: black;
+    top: -10px;
+}
+
+.radar-elevator-mask .radarHubLabel {
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+    position: relative;
+    background: white;
+    color: black;
+    margin: auto;
+    text-align: center;
+}
